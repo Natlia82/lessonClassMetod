@@ -1,0 +1,3 @@
+class Daemon extends Character {
+
+}

@@ -1,0 +1,3 @@
+class Bowerman extends Character {
+
+}

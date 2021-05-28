@@ -1,0 +1,3 @@
+class Undead extends Character {
+
+}

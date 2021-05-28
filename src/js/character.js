@@ -1,13 +1,13 @@
-class Character {
-    health = 100;
-    level = 1;
+export default class Character {
+
 
     constructor(name, type) {
         let nameString = new String(name);
         if (nameString.length >= 2 && nameString.length <= 10) {
             this.name = nameString;
         } else throw new Error("Не верный формат имени");
-
+        this.health = 100;
+        this.level = 1;
         let mass = ["Bowman", "Swordsman", "Magician", "Daemon", "Undead", "Zombie"];
         if (mass.includes(type)) {
             this.type = type;

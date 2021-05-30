@@ -42,7 +42,7 @@ export default class Character {
     }
 
     levelUp() {
-        if (this.health != 0) {
+        if (this.health > 0) {
             this.level++;
             this.attac = this.attac + (this.attac * 20 / 100);
             this.defence = this.defence + (this.defence * 20 / 100);
